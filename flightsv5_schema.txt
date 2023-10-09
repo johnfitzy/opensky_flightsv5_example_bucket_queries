@@ -1,0 +1,372 @@
+############ file meta data ############
+created_by: parquet-mr version 1.5.0-cdh5.15.0 (build ${buildNumber})
+num_columns: 33
+num_rows: 92832
+num_row_groups: 4
+format_version: 1.0
+serialized_size: 14272
+
+############ Columns ############
+icao24
+firstSeen
+estDepartureAirport
+lastSeen
+estArrivalAirport
+callsign
+time
+latitude
+longitude
+altitude
+heading
+onGround
+array
+estDepartureAirportHorizDistance
+estDepartureAirportVertDistance
+estArrivalAirportHorizDistance
+estArrivalAirportVertDistance
+departureAirportCandidatesCount
+arrivalAirportCandidatesCount
+icao
+horizDistance
+vertDistance
+icao
+horizDistance
+vertDistance
+airportOfDeparture
+airportOfDestination
+takeoffTime
+takeoffLatitude
+takeoffLongitude
+landingTime
+landingLatitude
+landingLongitude
+
+############ Column(icao24) ############
+name: icao24
+path: icao24
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: BYTE_ARRAY
+logical_type: String
+converted_type (legacy): UTF8
+compression: SNAPPY (space_saved: 27%)
+
+############ Column(firstSeen) ############
+name: firstSeen
+path: firstSeen
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: -0%)
+
+############ Column(estDepartureAirport) ############
+name: estDepartureAirport
+path: estDepartureAirport
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: BYTE_ARRAY
+logical_type: String
+converted_type (legacy): UTF8
+compression: SNAPPY (space_saved: 11%)
+
+############ Column(lastSeen) ############
+name: lastSeen
+path: lastSeen
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 0%)
+
+############ Column(estArrivalAirport) ############
+name: estArrivalAirport
+path: estArrivalAirport
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: BYTE_ARRAY
+logical_type: String
+converted_type (legacy): UTF8
+compression: SNAPPY (space_saved: 12%)
+
+############ Column(callsign) ############
+name: callsign
+path: callsign
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: BYTE_ARRAY
+logical_type: String
+converted_type (legacy): UTF8
+compression: SNAPPY (space_saved: 36%)
+
+############ Column(time) ############
+name: time
+path: track.bag.array.time
+max_definition_level: 4
+max_repetition_level: 1
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 0%)
+
+############ Column(latitude) ############
+name: latitude
+path: track.bag.array.latitude
+max_definition_level: 4
+max_repetition_level: 1
+physical_type: DOUBLE
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 35%)
+
+############ Column(longitude) ############
+name: longitude
+path: track.bag.array.longitude
+max_definition_level: 4
+max_repetition_level: 1
+physical_type: DOUBLE
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 31%)
+
+############ Column(altitude) ############
+name: altitude
+path: track.bag.array.altitude
+max_definition_level: 4
+max_repetition_level: 1
+physical_type: DOUBLE
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 47%)
+
+############ Column(heading) ############
+name: heading
+path: track.bag.array.heading
+max_definition_level: 4
+max_repetition_level: 1
+physical_type: FLOAT
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 10%)
+
+############ Column(onGround) ############
+name: onGround
+path: track.bag.array.onGround
+max_definition_level: 4
+max_repetition_level: 1
+physical_type: BOOLEAN
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 88%)
+
+############ Column(array) ############
+name: array
+path: serials.bag.array
+max_definition_level: 3
+max_repetition_level: 1
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 2%)
+
+############ Column(estDepartureAirportHorizDistance) ############
+name: estDepartureAirportHorizDistance
+path: estDepartureAirportHorizDistance
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 0%)
+
+############ Column(estDepartureAirportVertDistance) ############
+name: estDepartureAirportVertDistance
+path: estDepartureAirportVertDistance
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 0%)
+
+############ Column(estArrivalAirportHorizDistance) ############
+name: estArrivalAirportHorizDistance
+path: estArrivalAirportHorizDistance
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 0%)
+
+############ Column(estArrivalAirportVertDistance) ############
+name: estArrivalAirportVertDistance
+path: estArrivalAirportVertDistance
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 1%)
+
+############ Column(departureAirportCandidatesCount) ############
+name: departureAirportCandidatesCount
+path: departureAirportCandidatesCount
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 17%)
+
+############ Column(arrivalAirportCandidatesCount) ############
+name: arrivalAirportCandidatesCount
+path: arrivalAirportCandidatesCount
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 4%)
+
+############ Column(icao) ############
+name: icao
+path: otherDepartureAirportCandidates.bag.array.icao
+max_definition_level: 4
+max_repetition_level: 1
+physical_type: BYTE_ARRAY
+logical_type: String
+converted_type (legacy): UTF8
+compression: SNAPPY (space_saved: 17%)
+
+############ Column(horizDistance) ############
+name: horizDistance
+path: otherDepartureAirportCandidates.bag.array.horizDistance
+max_definition_level: 4
+max_repetition_level: 1
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 1%)
+
+############ Column(vertDistance) ############
+name: vertDistance
+path: otherDepartureAirportCandidates.bag.array.vertDistance
+max_definition_level: 4
+max_repetition_level: 1
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 2%)
+
+############ Column(icao) ############
+name: icao
+path: otherArrivalAirportCandidates.bag.array.icao
+max_definition_level: 4
+max_repetition_level: 1
+physical_type: BYTE_ARRAY
+logical_type: String
+converted_type (legacy): UTF8
+compression: SNAPPY (space_saved: 18%)
+
+############ Column(horizDistance) ############
+name: horizDistance
+path: otherArrivalAirportCandidates.bag.array.horizDistance
+max_definition_level: 4
+max_repetition_level: 1
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 2%)
+
+############ Column(vertDistance) ############
+name: vertDistance
+path: otherArrivalAirportCandidates.bag.array.vertDistance
+max_definition_level: 4
+max_repetition_level: 1
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: 6%)
+
+############ Column(airportOfDeparture) ############
+name: airportOfDeparture
+path: airportOfDeparture
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: BYTE_ARRAY
+logical_type: String
+converted_type (legacy): UTF8
+compression: SNAPPY (space_saved: -6%)
+
+############ Column(airportOfDestination) ############
+name: airportOfDestination
+path: airportOfDestination
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: BYTE_ARRAY
+logical_type: String
+converted_type (legacy): UTF8
+compression: SNAPPY (space_saved: -6%)
+
+############ Column(takeoffTime) ############
+name: takeoffTime
+path: takeoffTime
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: -6%)
+
+############ Column(takeoffLatitude) ############
+name: takeoffLatitude
+path: takeoffLatitude
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: DOUBLE
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: -6%)
+
+############ Column(takeoffLongitude) ############
+name: takeoffLongitude
+path: takeoffLongitude
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: DOUBLE
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: -6%)
+
+############ Column(landingTime) ############
+name: landingTime
+path: landingTime
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: INT32
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: -6%)
+
+############ Column(landingLatitude) ############
+name: landingLatitude
+path: landingLatitude
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: DOUBLE
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: -6%)
+
+############ Column(landingLongitude) ############
+name: landingLongitude
+path: landingLongitude
+max_definition_level: 1
+max_repetition_level: 0
+physical_type: DOUBLE
+logical_type: None
+converted_type (legacy): NONE
+compression: SNAPPY (space_saved: -6%)
